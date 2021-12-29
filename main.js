@@ -23,11 +23,11 @@ function setup() {
 
 
 }
-/*
+
 function startGame() {
 	game_status = "start";
 	document.getElementById('status').innerHTML = "Game Is Loading";
-}*/
+}
 function modelLoaded() {
 	console.log('Model Loaded!!!!!')
 }

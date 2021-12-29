@@ -24,7 +24,7 @@ var gameConfig={
   initialLifes: 69,
 
   // character moves speed
-  moveSpeed: 5,
+  moveSpeed: 2,
   enemyMoveSpeed: 1,
 
   // gravity and jump speed for all the characters
@@ -79,10 +79,12 @@ console.log("noseX"+noseX);
 
     changeGameStatud();
   }
+  /*
   function startGame() {
     game_status = "start";
     document.getElementById('status').innerHTML = "Game Is Loading";
   }
+  */
   if(gameConfig.status==='play'){
     positionOfCharacter(mario);
     enemys(enemyMushrooms);
